@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 // update this path sonner with new clean one !!!
 dotenv.config({
-path: path.resolve(__dirname, '../Env/.env.TKBOT'),
+path: path.resolve(__dirname, '../env/.env.TKBOT'),
 quiet: true
 });
 
