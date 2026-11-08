@@ -33,9 +33,9 @@ IDeX.js/
 │   └── HandlerEnvs.js
 │
 ├── env/
-│   └── .env.TKBOT (Create you own)
+│   └── .env.TKBOT (insert your own bot tokens)
 │
-├── node_modules (Create you own)
+├── node_modules (download module)
 ├── .gitignore
 ├── eslint.config.js
 ├── package-lock.json
@@ -59,4 +59,3 @@ IDeX.js/
 ### Requirements
 1. Donwload npm
 2. donwload discord.js
-3. Create env floder with tokenbot inside it !
