@@ -1,12 +1,12 @@
 {
-  "name": "IDeX",
+  "name": "DiscordBox",
   "version": "1.5.0",
   "description": "Feautre Bot App",
   "keywords": [ "Dont", "touch", "it"],
   "license": "ISC",
   "author": "Kanyx",
   "type": "commonjs",
-  "main": "./App/IDeX.js",
+  "main": "./App/DiscordBox.js",
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
