@@ -1,4 +1,4 @@
-const prefix_Oi = "."
+const prefix_Oi = "!"
 
 module.exports = {
  name: "messageCreate",
