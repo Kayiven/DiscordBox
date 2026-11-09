@@ -33,7 +33,8 @@ IDeX.js/
 │   └── HandlerEnvs.js
 │
 ├── env/
-│   └── .env.TKBOT (insert your own bot tokens)
+│   └── .env.TKBOT (insert your own info)
+│   └── .env.Database (insert your own info)
 │
 ├── node_modules (download module)
 ├── .gitignore
