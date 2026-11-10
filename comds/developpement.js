@@ -1,7 +1,18 @@
-module.exports = {
- name:'developpement',
- description:'Command for development',
+const { EmbedBuilder } = require("@discordjs/builders")
 
-async execute(message) {
- message.reply('right now this command is in development, please wait for the next update');
- }};
+module.exports = {
+ name:'Version 0.1',
+ description:'Command for development',
+ Permissions:[""],
+ cooldown: 0,
+ 
+async execute(message, args, client) {
+const C = new EmbedBuilder()
+.setTitle("Version 0.1")
+.setDescription("This is the first version of the bot, it is still in development and may contain bugs.")
+.setColor("#00FF00")
+.setFooter({text:"Bot by TKBOT"})
+
+await message.reply({ embeds: [embed] }); 
+}
+}
