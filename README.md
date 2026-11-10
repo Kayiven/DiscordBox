@@ -23,6 +23,7 @@ IDeX.js/
 │   └── IDeX.js
 ├── comds/
 │   └── developpement.js
+│   └── ping.js
 ├── evonts/
 │   └── client/
 │       └── messageCreate.js
@@ -31,6 +32,7 @@ IDeX.js/
 │   └── HandlerCmds.js
 │   └── HandlerEvent.js
 │   └── HandlerEnvs.js
+│   └── HandlerButtons.js
 │
 ├── env/
 │   └── .env.TKBOT (insert your own info)
