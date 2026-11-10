@@ -60,7 +60,7 @@ IDeX.js/
 - [ ] buttons error handling
 
 ## Attention
-- Still more thing too coming soon and if see any bugs or command file not working mean i update by mistake and  i have too many
+Still more thing too coming soon and if see any bugs or command file not working mean i update by mistake and  i have too many
 thing to change us well so pls dont report it 😂
 
 ### Requirements
