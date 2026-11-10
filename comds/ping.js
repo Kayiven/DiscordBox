@@ -1,11 +1,11 @@
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle, MessageFlags } =
+    require("discord.js");
+
 module.exports = {
     name: "ping",
     description: "Ping command",
 
     async execute(message, args, client) {
-        const { ActionRowBuilder, ButtonBuilder, ButtonStyle } =
-            require("discord.js");
-
         const button = new ButtonBuilder()
             .setCustomId("ping_again")
             .setLabel("Ping Again")
@@ -24,7 +24,7 @@ module.exports = {
         ping_again: async (interaction, client) => {
             await interaction.reply({
                 content: "Pong again! 🏓",
-                ephemeral: true
+                flags: MessageFlags.Ephemeral
             });
         }
     }
