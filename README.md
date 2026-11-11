@@ -49,7 +49,8 @@ IDeX.js/
 ## ✅ Implemented Features
 - [x] Client Connection & Respond
 - [x] Events Handler & Read
-- [x] Command Handler & interaction
+- [x] Update Command Handler & interaction
+- [x] Add HandlerPermission
 
 ## 🚧 Planned Features*
 - [ ] Swap Button System more performante and stable
