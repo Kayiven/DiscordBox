@@ -1,11 +1,19 @@
-const { EmbedBuilder } = require("@discordjs/builders")
+const { EmbedBuilder, userMention } = require("@discordjs/builders")
 
 module.exports = {
  name:'status',
  description:'Command for development',
- aliases: [],
- Permissions:[],
+ alises: [],
  cooldown: 0,
+
+ Permissions: {
+ prefix: true,
+ slash: true,
+ OwnerOnly: true,
+ user: [],
+ bot: [], 
+ },
+ 
  
 async execute(message, args, client) {
 const status = new EmbedBuilder()
@@ -15,9 +23,7 @@ const status = new EmbedBuilder()
 { name: 'Client', value: 'Some value here' },
 { name: '\u200B', value: '\u200B' },
 { name: 'Inline field title', value: 'Some value here', inline: true },
-{ name: 'Inline field title', value: 'Some value here', inline: true },
-	)
+{ name: 'Inline field title', value: 'Some value here', inline: true },)
 
 await message.reply({ embeds: [status] }); 
-}
-}
+}}
