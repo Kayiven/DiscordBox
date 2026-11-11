@@ -47,17 +47,14 @@ IDeX.js/
 ```
 
 ## ✅ Implemented Features
-- [x] Discord bot connection
-- [x] Command loading system
-- [x] Events loading system
+- [x] Client Connection & Respond
+- [x] Events Handler & Read
+- [x] Command Hanler & interaction
 
 ## 🚧 Planned Features*
-- [ ] Spear Commands prefix & Slash
-- [ ] More general commands
-- [ ] Buttons loading system
-- [ ] Command error handling
-- [ ] Events error handling
-- [ ] buttons error handling
+- [ ] Swap Button System more performante one
+- [ ] Error Handling & Caches
+- [ ] Upade Commands
 
 ## Attention
 Still more thing too coming soon and if see any bugs or command file not working mean i update by mistake and  i have too many
