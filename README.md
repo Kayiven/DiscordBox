@@ -52,9 +52,10 @@ IDeX.js/
 - [x] Command Hanler & interaction
 
 ## 🚧 Planned Features*
-- [ ] Swap Button System more performante one
+- [ ] Swap Button System more performante and stable
 - [ ] Error Handling & Caches
-- [ ] Upade Commands
+- [ ] Cooldown for command
+- [ ] Permission Handler
 
 ## Attention
 Still more thing too coming soon and if see any bugs or command file not working mean i update by mistake and  i have too many
