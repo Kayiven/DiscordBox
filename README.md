@@ -22,7 +22,7 @@ IDeX.js/
 ├── App/
 │   └── IDeX.js
 ├── comds/
-│   └── developpement.js
+│   └── status.js
 │   
 ├── evonts/
 │   └── client/
