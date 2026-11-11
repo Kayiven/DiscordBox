@@ -1,18 +1,22 @@
 const { EmbedBuilder } = require("@discordjs/builders")
 
 module.exports = {
- name:'Version 0.1',
+ name:'status',
  description:'Command for development',
  Permissions:[""],
  cooldown: 0,
  
 async execute(message, args, client) {
-const C = new EmbedBuilder()
-.setTitle("Version 0.1")
-.setDescription("This is the first version of the bot, it is still in development and may contain bugs.")
-.setColor("#00FF00")
-.setFooter({text:"Bot by TKBOT"})
+const status = new EmbedBuilder()
+.setTitle(" status")
+.setDescription("This Status To Show information about channels acces and count System for specifque guild")
+.addFields(
+{ name: 'Client', value: 'Some value here' },
+{ name: '\u200B', value: '\u200B' },
+{ name: 'Inline field title', value: 'Some value here', inline: true },
+{ name: 'Inline field title', value: 'Some value here', inline: true },
+	)
 
-await message.reply({ embeds: [embed] }); 
+await message.reply({ embeds: [status] }); 
 }
 }
