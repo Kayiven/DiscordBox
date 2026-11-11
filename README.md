@@ -32,7 +32,7 @@ IDeX.js/
 │   └── HandlerCmds.js
 │   └── HandlerEvent.js
 │   └── HandlerEnvs.js
-│   └── HandlerButtons.js
+│   └── HandlerPermission.js
 │
 ├── env/
 │   └── .env.TKBOT (insert your own info)
@@ -50,13 +50,12 @@ IDeX.js/
 - [x] Client Connection & Respond
 - [x] Events Handler & Read
 - [x] Update Command Handler & interaction
-- [x] Add HandlerPermission
+- [x] Add HandlerPermission.
 
 ## 🚧 Planned Features*
 - [ ] Swap Button System more performante and stable
 - [ ] Error Handling & Caches
 - [ ] Cooldown for command
-- [ ] Permission Handler
 
 ## Attention
 Still more thing too coming soon and if see any bugs or command file not working mean i update by mistake and  i have too many
