@@ -3,6 +3,7 @@ const { EmbedBuilder } = require("@discordjs/builders")
 module.exports = {
  name:'status',
  description:'Command for development',
+ aliases: [],
  Permissions:[""],
  cooldown: 0,
  
