@@ -4,7 +4,7 @@ module.exports = {
  name:'status',
  description:'Command for development',
  aliases: [],
- Permissions:[""],
+ Permissions:[],
  cooldown: 0,
  
 async execute(message, args, client) {
